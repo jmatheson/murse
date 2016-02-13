@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-02-13T00:24:14 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-02-13T00:24:14-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "0e98004d10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-02-13T00:24:14 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-02-13T00:24:14-08:00", 
+    "_body": "00", 
+    "_head": "339e", 
+    "rate": 3.95, 
+    "_date": "0e98004d10"
+  }, 
+  {
     "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2016-02-13T00:00:00 head[1], body[41] op[0x6d]", 
     "timestamp": "2016-02-13T00:00:00-08:00", 
@@ -142,14 +161,5 @@
     "bolus_estimate": 4.4, 
     "_date": "1cae140c10", 
     "bg_target_low": 90
-  }, 
-  {
-    "_type": "LowReservoir", 
-    "_description": "LowReservoir 2016-02-12T18:14:07 head[2], body[0] op[0x34]", 
-    "timestamp": "2016-02-12T18:14:07-08:00", 
-    "_body": "", 
-    "_head": "344b", 
-    "amount": 7.5, 
-    "_date": "078e120c10"
   }
 ]
