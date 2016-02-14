@@ -7,43 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-14T08:28:03.000Z", 
+      "timestamp": "2016-02-14T08:32:44.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 212.6, 
-    "clock": "2016-02-14T00:26:16-08:00"
+    "reservoir": 212.3, 
+    "clock": "2016-02-14T00:31:03-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 183, 
+      "bg": 182, 
       "temp": "absolute", 
-      "snoozeBG": 125, 
-      "timestamp": "2016-02-14T08:26:44.000Z", 
-      "reason": "Eventual BG 125>=105, temp 5.075 >~ req 4.1U/hr", 
-      "eventualBG": 125, 
-      "mealAssist": "On: Carbs: 40 Boluses: 4.4 Target: 92.5 Deviation: 19 BGI: -5.15", 
-      "tick": "+2"
+      "snoozeBG": 119, 
+      "timestamp": "2016-02-14T08:30:59.000Z", 
+      "rate": 2.9, 
+      "reason": "Eventual BG 119>=105, temp 5.075<2.92U/hr", 
+      "eventualBG": 119, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 40 Boluses: 4.4 Target: 97.5 Deviation: 17 BGI: -5.15", 
+      "tick": -1
     }, 
     "iob": {
-      "timestamp": "2016-02-14T08:26:43.000Z", 
+      "timestamp": "2016-02-14T08:30:59.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 3.007, 
-      "iob": 3.097, 
+      "basaliob": 3.119, 
+      "iob": 3.196, 
       "activity": 0.0412
     }, 
     "enacted": {
-      "bg": 173, 
+      "bg": 182, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
+      "snoozeBG": 119, 
       "recieved": true, 
-      "reason": "Eventual BG 141>=105, temp 4.325<5.08U/hr", 
-      "rate": 5.075, 
-      "eventualBG": 141, 
-      "timestamp": "2016-02-14T08:01:14.000Z", 
+      "reason": "Eventual BG 119>=105, temp 5.075<2.92U/hr", 
+      "rate": 2.875, 
+      "eventualBG": 119, 
+      "timestamp": "2016-02-14T08:31:17.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 40 Boluses: 4.4 Target: 97.5 Deviation: 20 BGI: -5.14", 
-      "tick": "+2"
+      "mealAssist": "Off: Carbs: 40 Boluses: 4.4 Target: 97.5 Deviation: 17 BGI: -5.15", 
+      "tick": -1
     }
   }
 }
