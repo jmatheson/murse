@@ -1,5 +1,17 @@
 [
   {
+    "programmed": 3.0, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2016-02-14T17:10:56 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2016-02-14T17:10:56", 
+    "_body": "", 
+    "_head": "011e1e00", 
+    "amount": 3.0, 
+    "_date": "388a310e10"
+  }, 
+  {
     "programmed": 4.0, 
     "_type": "Bolus", 
     "type": "normal", 
