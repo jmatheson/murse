@@ -7,43 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-15T02:27:35.000Z", 
+      "timestamp": "2016-02-15T02:32:45.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 157.8, 
-    "clock": "2016-02-14T18:26:06-08:00"
+    "reservoir": 157.6, 
+    "clock": "2016-02-14T18:31:04-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 255, 
+      "bg": 256, 
       "temp": "absolute", 
       "snoozeBG": 228, 
-      "timestamp": "2016-02-15T02:26:05.000Z", 
-      "reason": "94 is in range. No temp required", 
-      "eventualBG": 94, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 10 Target: 97.5 Deviation: 17 BGI: -6.86", 
-      "tick": "+0"
+      "timestamp": "2016-02-15T02:31:05.000Z", 
+      "rate": 2.4, 
+      "reason": "Eventual BG 106>=105, no temp, setting 2.38U/hr", 
+      "eventualBG": 106, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 10 Target: 97.5 Deviation: 21 BGI: -7.07", 
+      "tick": "+1"
     }, 
     "iob": {
-      "timestamp": "2016-02-15T02:26:05.000Z", 
-      "bolussnooze": 3.566, 
+      "timestamp": "2016-02-15T02:31:05.000Z", 
+      "bolussnooze": 3.241, 
       "basaliob": 0, 
-      "iob": 7.134, 
-      "activity": 0.0549
+      "iob": 6.854, 
+      "activity": 0.0566
     }, 
     "enacted": {
-      "bg": 123, 
+      "bg": 256, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
+      "snoozeBG": 228, 
       "recieved": true, 
-      "reason": "Eventual BG 171>=105, temp 4.575<5.1U/hr", 
-      "rate": 5.075, 
-      "eventualBG": 171, 
-      "timestamp": "2016-02-14T19:51:18.000Z", 
+      "reason": "Eventual BG 106>=105, no temp, setting 2.38U/hr", 
+      "rate": 2.375, 
+      "eventualBG": 106, 
+      "timestamp": "2016-02-15T02:31:23.000Z", 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 43 Boluses: 4.7 Target: 92.5 Deviation: 36 BGI: -3.6", 
-      "tick": "+4"
+      "mealAssist": "Off: Carbs: 0 Boluses: 10 Target: 97.5 Deviation: 21 BGI: -7.07", 
+      "tick": "+1"
     }
   }
 }
